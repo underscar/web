@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: black;
+	  font-family: "Helvetica Neue", Arial, sans-serif;
+	  flex-direction: column;
+    }
+    
+    h1 {
+      color: white;
+    }
+	
+	 p {
+      color: red;
+    }
+	
+	a {
+		color: white;
+	}
+	
+.audio-container {
+  position: relative;
+  display: inline-block;
+}
+
+.audio-container audio {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bottomtext {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

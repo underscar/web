@@ -7,7 +7,7 @@
 		<!--<style></style>-->
 	</head>
 	<body>
-		<h1>GUICHE GENOCIDE</h1>
+		<h1 class="hover-bg">GUICHE GENOCIDE</h1>
 		
 		<a href="files/taxi_outro_test.wav" download>taxi_outro_test</a>
 		
@@ -34,5 +34,18 @@
 			</audio>
 		</div>
 		<p class="bottomtext">Contact: make@rape.legal</p>
+		<script>
+			var h1Element = document.querySelector('.hover-bg'); // Sélectionnez l'élément <h1> par sa classe
+
+			h1Element.addEventListener('mouseenter', function() {
+				document.body.style.backgroundImage = "url('files/mood.jpg')";
+				/* Autres styles d'image au survol */
+			});
+
+			h1Element.addEventListener('mouseleave', function() {
+				document.body.style.backgroundImage = "none";
+				/* Autres styles d'image par défaut */
+			});
+		</script>
 	</body>
 </html>

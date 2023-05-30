@@ -8,8 +8,7 @@ body {
       background-color: black;
 	  font-family: "Helvetica Neue", Arial, sans-serif;
 	  flex-direction: column;
-	  background-image: url("files/mood.jpg");
-		background-size: cover;
+	  background-size: cover;
     }
     
     h1 {
